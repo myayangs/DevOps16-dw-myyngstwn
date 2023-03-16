@@ -50,7 +50,7 @@ rm -rf /usr/local/go && tar -C /usr/local -xzf go1.16.5.linux-amd64.tar.gz && ex
 ```
 ![2](https://user-images.githubusercontent.com/54151202/225761929-1b046509-21e7-4dfa-9360-c7dbb7298498.png)
 
-- Selanjutnya masukkan path go pada `.bashrc`
+- Selanjutnya masukkan path **_go_** pada `.bashrc`
 ```
 sudo nano .bashrc
 ```
@@ -61,13 +61,13 @@ export PATH=$PATH:/usr/local/go/bin
 ```
 ![4](https://user-images.githubusercontent.com/54151202/225761909-0dbb6e4d-f540-4c90-b9be-96f1fedd2c16.png)
 
-- Jika sudah, lakukan verifikasi apakah go sudah terinstall dengan perintah berikut:
+- Jika sudah, lakukan verifikasi apakah **_go_** sudah terinstall dengan perintah berikut:
 ```
 go version
 ```
 ![5](https://user-images.githubusercontent.com/54151202/225761912-7a870b8d-8434-4434-b862-2aaa7369a791.png)
 
-Buat sebuah file dengan nama app.go.
+Buat sebuah file dengan nama `app.go`.
 ```
 nano index.go
 ```
@@ -84,7 +84,7 @@ func main() {
 ```
 ![6](https://user-images.githubusercontent.com/54151202/225761913-88b2130e-5910-4644-9533-fe25158684fa.png)
 
-- Sekarang jalankan aplikasi go dengan menggunakan perintah berikut.
+- Sekarang jalankan aplikasi **_go_** dengan menggunakan perintah berikut.
 ```
 go run index.go
 ```
