@@ -69,7 +69,7 @@ go version
 
 Buat sebuah file dengan nama `app.go`.
 ```
-nano index.go
+nano app.go
 ```
 
 - Setelah itu masukkan script dibawah ini.
@@ -104,14 +104,44 @@ go build index.go
 
 
 ## Python
+- Pertama-tama kita harus install terlebih dahulu **_python3_**. Karena sudah ada secara default, untuk melakukan pengecekan jalankan perintah berikut.
+```
+python3 -V
+```
 ![1](https://user-images.githubusercontent.com/54151202/225761838-ea83cb3e-7e75-41b9-a346-72484995e411.png)
 
+- Kemudian install dulu package manager dari **_python3_**. Dapat menggunakan perintah berikut ini.
+```
+sudo apt install python3-pip
+```
 ![2](https://user-images.githubusercontent.com/54151202/225761843-fe55c715-70d1-42fa-a68c-59dd793f7c45.png)
 
+- Kemudian jalankan perintah ini.
+```
+pip install flask
+```
 ![3](https://user-images.githubusercontent.com/54151202/225761845-b341888f-6a1a-4c55-8622-4ca180a1f14f.png)
 
+- Buat file `app.py` Lalu masukan script dibawah ini.
+```
+nano app.py
+```
+```
+from flask import Flask
+app = Flask(__name__)
+@app.route("/")
+def dumbways(Halo Dumbways!):
+    return ""
+if __name__ == "__main__":
+    app.run("0.0.0.0" , port=5000)
+```
 ![4](https://user-images.githubusercontent.com/54151202/225761847-fcc08b12-d429-461e-95d8-096a92327669.png)
 
+- Kemudian jalankan aplikasi dengan menggunakan perintah ini.
+```
+python3 app.py
+```
 ![5](https://user-images.githubusercontent.com/54151202/225761849-360cdf6c-dd55-449b-a007-48afb51402b6.png)
 
+- Kemudian akses web browser dengan `IP` dan port `:5000`. Aplikasi sudah berjalan.
 ![6](https://user-images.githubusercontent.com/54151202/225761854-da02a36b-a3f7-4801-8f35-f08e4a01ed9b.png)
