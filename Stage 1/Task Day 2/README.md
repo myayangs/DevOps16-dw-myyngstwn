@@ -6,14 +6,14 @@ Bash merupakan shell yang paling umum digunakan pengguna Linux.  Bash sripting  
 
 ## Install Nginx
 - Pertama lakukan install **_nginx_**. bisa gunakan perintah dibawah ini.
-```bash
-  sudo apt install nginx
+```
+sudo apt install nginx
 ```
 ![image](Media/1.png)
 
 - Jika install sudah selesai bisa cek dengan menggunakan perintah dibawah ini.
 ```
-  sudo systemctl status nginx
+sudo systemctl status nginx
 ```
 ![image](Media/2.png)
 
@@ -57,39 +57,39 @@ Bash merupakan shell yang paling umum digunakan pengguna Linux.  Bash sripting  
 
 ## Install Localtunnel
 - Pertama-tama lakukan instalasi **_node.js_** menggunakan **_nvm_**. bisa gunakan perintah dibawah ini.
-```bash
-  sudo apt install curl
+```
+sudo apt install curl
 ```
 ![image](Media/9.png)
 
-```bash
-  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+```
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
 ```
 ![image](Media/10.png)
 
-```bash
-  exec bash
 ```
-```bash
-  nvm install 14
+exec bash
 ```
-```bash
-  node -v
 ```
-```bash
-  npm -v
+nvm install 14
+```
+```
+node -v
+```
+```
+npm -v
 ```
 ![image](Media/11.png)
 
 - Kemudian Instalasi **_localtunnel_** menggunakan npm yang sudah diinstall.
-```bash
-  npm install -g localtunnel
+```
+npm install -g localtunnel
 ```
 ![image](Media/12.png)
 
 - Karena sudah menginstall **_nginx_** sebelumnya maka untuk menjalankan **_localtunnel_** dapat mengikuti perintah di bawah ini. (bagi yang belum install **_nginx_** bisa dilihat [diatas](#install-nginx))
-```bash
-  lt --port 80
+```
+lt --port 80
 ```
 ![image](Media/13.png)
 *keterangan: pastikan port dengan sesuai dengan aplikasi. Karena setiap aplikasi mempunyai port yang berbeda-beda.*
