@@ -12,7 +12,7 @@ Bash merupakan shell yang paling umum digunakan pengguna Linux.  Bash sripting  
 ![image](Media/1.png)
 
 - Jika install sudah selesai bisa cek dengan menggunakan perintah dibawah ini.
-```bash
+```
   sudo systemctl status nginx
 ```
 ![image](Media/2.png)
