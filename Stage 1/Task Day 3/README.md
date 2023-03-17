@@ -155,18 +155,23 @@ python3 app.py
  ```
  npm install pm2@latest -g
  ```
-
- 
  ```
  pm2 -v
  ```
+ ![1](https://user-images.githubusercontent.com/54151202/225879079-2094f80c-e6d6-4c23-9dd5-40177bb25d3e.png)
+
 
  - Jalankan aplikasi **python** yang sudah dibuat sebelumnya dengan command berikut :
 
- 
+ ![a](https://user-images.githubusercontent.com/54151202/225879196-4454b4d6-6cce-45aa-9065-c1ba82dd0f5e.png)
+![b](https://user-images.githubusercontent.com/54151202/225879201-575144e4-aafa-4393-9902-fe22bbc11302.png)
+![c](https://user-images.githubusercontent.com/54151202/225879206-c95aa27e-5158-4850-a344-3de3b8a98196.png)
 
  - Jalankan aplikasi **NodeJS** yang sudah dibuat sebelumnya dengan command berikut :
 
+![11](https://user-images.githubusercontent.com/54151202/225879892-a87e1c68-e5fe-4e5a-9534-3c035eefffbd.png)
+![22](https://user-images.githubusercontent.com/54151202/225879896-56a8517b-8556-4838-98c6-e185617b3bea.png)
+![33](https://user-images.githubusercontent.com/54151202/225879901-411788a4-b0d7-411e-b67e-a9064d16ff87.png)
 
 
 
