@@ -2,7 +2,7 @@
 
 ## Node JS
 
-- Pertama-tama lakukan instalasi **_Node.js_** versi 10. bisa gunakan perintah dibawah ini.
+- Pertama-tama lakukan instalasi **NodeJS** versi 10. bisa gunakan perintah dibawah ini.
 
 ```
 nvm install 10
@@ -50,7 +50,7 @@ rm -rf /usr/local/go && tar -C /usr/local -xzf go1.16.5.linux-amd64.tar.gz && ex
 ```
 ![2](https://user-images.githubusercontent.com/54151202/225761929-1b046509-21e7-4dfa-9360-c7dbb7298498.png)
 
-- Selanjutnya masukkan path **_go_** pada `.bashrc`
+- Selanjutnya masukkan path **go** pada `.bashrc`
 ```
 sudo nano .bashrc
 ```
@@ -61,7 +61,7 @@ export PATH=$PATH:/usr/local/go/bin
 ```
 ![4](https://user-images.githubusercontent.com/54151202/225761909-0dbb6e4d-f540-4c90-b9be-96f1fedd2c16.png)
 
-- Jika sudah, lakukan verifikasi apakah **_go_** sudah terinstall dengan perintah berikut:
+- Jika sudah, lakukan verifikasi apakah **go** sudah terinstall dengan perintah berikut:
 ```
 go version
 ```
@@ -84,7 +84,7 @@ func main() {
 ```
 ![6](https://user-images.githubusercontent.com/54151202/225761913-88b2130e-5910-4644-9533-fe25158684fa.png)
 
-- Sekarang jalankan aplikasi **_go_** dengan menggunakan perintah berikut.
+- Sekarang jalankan aplikasi **go** dengan menggunakan perintah berikut.
 ```
 go run index.go
 ```
@@ -104,13 +104,13 @@ go build index.go
 
 
 ## Python
-- Pertama-tama kita harus install terlebih dahulu **_python3_**. Karena sudah ada secara default, untuk melakukan pengecekan jalankan perintah berikut.
+- Pertama-tama kita harus install terlebih dahulu **python3**. Karena sudah ada secara default, untuk melakukan pengecekan jalankan perintah berikut.
 ```
 python3 -V
 ```
 ![1](https://user-images.githubusercontent.com/54151202/225761838-ea83cb3e-7e75-41b9-a346-72484995e411.png)
 
-- Kemudian install dulu package manager dari **_python3_**. Dapat menggunakan perintah berikut ini.
+- Kemudian install dulu package manager dari **python3**. Dapat menggunakan perintah berikut ini.
 ```
 sudo apt install python3-pip
 ```
@@ -145,3 +145,29 @@ python3 app.py
 
 - Kemudian akses web browser dengan `IP` dan port `:5000`. Aplikasi sudah berjalan.
 ![6](https://user-images.githubusercontent.com/54151202/225761854-da02a36b-a3f7-4801-8f35-f08e4a01ed9b.png)
+
+
+ ## Konfigurasi dengan PM2 dan Localtunnel
+
+ Agar aplikasi dalam server dapat berjalan terus, dibutuhkan sebuah process manager, disini akan menggunakan PM2 untuk menjalankan aplikasi dari **NodeJS** dan **Python3**.
+
+ - Pertama-tama lakukan instalasi **PM2** dan lalu check apabila sudah berhasil. bisa gunakan perintah dibawah ini.
+ ```
+ npm install pm2@latest -g
+ ```
+
+ 
+ ```
+ pm2 -v
+ ```
+
+ - Jalankan aplikasi **python** yang sudah dibuat sebelumnya dengan command berikut :
+
+ 
+
+ - Jalankan aplikasi **NodeJS** yang sudah dibuat sebelumnya dengan command berikut :
+
+
+
+
+
