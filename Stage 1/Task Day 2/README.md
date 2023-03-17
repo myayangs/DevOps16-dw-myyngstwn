@@ -5,7 +5,7 @@ Bash merupakan shell yang paling umum digunakan pengguna Linux.  Bash sripting  
 
 
 ## Install Nginx
-- Pertama lakukan install **_nginx_**. bisa gunakan perintah dibawah ini.
+- Pertama lakukan install **nginx**. bisa gunakan perintah dibawah ini.
 ```
 sudo apt install nginx
 ```
@@ -45,7 +45,7 @@ sudo systemctl status nginx
 
 
 ## Perbedaan IP Public & IP Private
-- IP Public bersifat **_worlwide_**, bisa digunakan untuk mengakses internet namun penggunaan atau konfigurasinya tidak bebas (ada yang mengatur).
+- IP Public bersifat **worlwide**, bisa digunakan untuk mengakses internet namun penggunaan atau konfigurasinya tidak bebas (ada yang mengatur).
 - IP Private hanya bersifat lokal & tidak bisa digunakan untuk mengakses internet & penggunaannya bebas.
 
 
@@ -56,7 +56,7 @@ sudo systemctl status nginx
 
 
 ## Install Localtunnel
-- Pertama-tama lakukan instalasi **_node.js_** menggunakan **_nvm_**. bisa gunakan perintah dibawah ini.
+- Pertama-tama lakukan instalasi **NodeJS** menggunakan **nvm**. bisa gunakan perintah dibawah ini.
 ```
 sudo apt install curl
 ```
@@ -81,13 +81,13 @@ npm -v
 ```
 ![image](Media/11.png)
 
-- Kemudian Instalasi **_localtunnel_** menggunakan npm yang sudah diinstall.
+- Kemudian Instalasi **localtunnel** menggunakan npm yang sudah diinstall.
 ```
 npm install -g localtunnel
 ```
 ![image](Media/12.png)
 
-- Karena sudah menginstall **_nginx_** sebelumnya maka untuk menjalankan **_localtunnel_** dapat mengikuti perintah di bawah ini. (bagi yang belum install **_nginx_** bisa dilihat [diatas](#install-nginx))
+- Karena sudah menginstall **_nginx_** sebelumnya maka untuk menjalankan **localtunnel** dapat mengikuti perintah di bawah ini. (bagi yang belum install **nginx** bisa dilihat [diatas](#install-nginx))
 ```
 lt --port 80
 ```
