@@ -36,6 +36,7 @@ npm start
 ![6](https://user-images.githubusercontent.com/54151202/225574981-956498a9-2a4d-4a20-ba6f-23acae3571d9.png)
 
 
+
 ## Golang
 
 - Pertama-tama install terlebih dahulu engine-nya. Untuk instalasi kalian bisa menggunakan beberapa perintah dibawah ini.
@@ -103,6 +104,7 @@ go build index.go
 ![9](https://user-images.githubusercontent.com/54151202/225761922-29b41791-b4d4-472f-944c-fe9e24d567fe.png)
 
 
+
 ## Python
 - Pertama-tama harus install terlebih dahulu **python3**. Karena sudah ada secara default, untuk melakukan pengecekan jalankan perintah berikut.
 ```
@@ -148,6 +150,7 @@ python3 app.py
 ![6](https://user-images.githubusercontent.com/54151202/225761854-da02a36b-a3f7-4801-8f35-f08e4a01ed9b.png)
 
 
+
  ## Konfigurasi dengan PM2 dan Localtunnel
 
  Agar aplikasi dalam server dapat berjalan terus, dibutuhkan sebuah process manager, disini akan menggunakan PM2 untuk menjalankan aplikasi dari **NodeJS** dan **Python3**.
@@ -171,6 +174,8 @@ python3 app.py
 ![a](https://user-images.githubusercontent.com/54151202/225879196-4454b4d6-6cce-45aa-9065-c1ba82dd0f5e.png)
 ![b](https://user-images.githubusercontent.com/54151202/225879201-575144e4-aafa-4393-9902-fe22bbc11302.png)
 ![c](https://user-images.githubusercontent.com/54151202/225879206-c95aa27e-5158-4850-a344-3de3b8a98196.png)
+
+
 
  - Jalankan aplikasi **NodeJS** yang sudah dibuat sebelumnya dengan command berikut :
 ```
