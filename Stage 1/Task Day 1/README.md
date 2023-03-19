@@ -24,15 +24,16 @@ Sebelum melakukan instalasi ubuntu server, hal pertama yang harus dilakukan adal
 ![image](Media/2.png) 
 
 
-- Kemudian masukan user dan password yang diinginkan. lalu `Next`.
+- Kemudian masukan user dan password. lalu `Next`.
 
 ![image](Media/3.png) 
 
-- Kemudian isi kan nama file program instalasinya. lalu `Next`.
+- Kemudian menentukan lokasi dimana virtual machine akan disimpan.
 
 ![image](Media/4.png) 
 
-- Kemudian atur size Disk yang akan digunakan instalasi Ubuntu Server disini menggunakan `20 GB` bisa diisi dengan sesuai kebutuhan dan `pilih split virtual disk into multiple files`. lalu `Next`.
+- Setelah itu atur size disk yang ingin digunakan. Disini sebagai contoh saya menggunakan `20GB`. Disini ada 2 pilihan yaitu `Store Disk as a single file` dan `Split virtual disk into multiple files`.
+>Store Disk as a single file adalah disk yang di buat itu nantinya akan langsung terbuat 20Gb. (ini tidak disarankan untuk user yang memiliki penyimpanan yang berkapasitas kecil). Split virtual disk into multiple files maksudnya adalah disk yang kita pakai untuk virtual machine kita nantinya itu akan dibagi menjadi beberapa bagian. Jadi walaupun kita menggunakan disk berkapasitas 10Gb itu nanti tidak akan terpakai seluruhnya.
 
 ![image](Media/5.png) 
 
