@@ -14,11 +14,11 @@ Hypervisor adalah sebuah teknik virtualisasi yang memungkinkan beberapa sistem o
 ## Operating System
 Operating System adalah penghubung antara software dan hardware agar dapat digunakan oleh pengguna.
 
-## Install VmWare dan Ubuntu Server
-Sebelum melakukan instalasi ubuntu server, hal pertama yang harus dilakukan adalah menginstall tools virtual machine serta meng-unduh file [ISO Ubuntu Server 20.04](https://ubuntu.com/download/server) dan akan menggunakan tools [VMware Workstation Player](https://www.vmware.com/asean/products/workstation-player/workstation-player-evaluation.html).
+## Install Ubuntu Server
+Sebelum melakukan instalasi ubuntu server, hal pertama yang harus dilakukan adalah menginstall tools virtual machine serta mendownload file ISO ubuntu server terlebih dahulu. Kali ini, akan menggunakan tools VMware Workstation Player sebagai virtual machine. Download [VMware Workstation Player](https://www.vmware.com/asean/products/workstation-player/workstation-player-evaluation.html) dan [ISO Ubuntu Server 20.04](https://ubuntu.com/download/server) 
+    
 
-
-- Buka VmWare. Kemudian klik `“Create a New Virtual Machine”`, setelah itu masukan file ISO Ubuntu yang akan diinstall, setelah sudah dimasukan kemudian `Next`.
+- Setelah melakukan instalasi VMware, buka VmWare. Kemudian klik `“Create a New Virtual Machine”`, Kemudian masukan file ISO Ubuntu yang akan diinstall. Disini pilih saja di bagian `Installer disc image file (iso):`. Dan klik di bagian `Browse` lalu cari lokasi file ISO ubuntu server yang sudah di download sebelumnya lalu klik `Next`.
 
 ![image](Media/1.png) 
 ![image](Media/2.png) 
