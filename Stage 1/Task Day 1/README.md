@@ -28,7 +28,7 @@ Sebelum melakukan instalasi ubuntu server, hal pertama yang harus dilakukan adal
 
 ![image](Media/3.png) 
 
-- Kemudian menentukan lokasi dimana virtual machine akan disimpan.
+- Kemudian menentukan nama dan lokasi dimana virtual machine akan disimpan.
 
 ![image](Media/4.png) 
 
