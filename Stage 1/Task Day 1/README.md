@@ -33,7 +33,7 @@ Sebelum melakukan instalasi ubuntu server, hal pertama yang harus dilakukan adal
 ![image](Media/4.png) 
 
 - Setelah itu atur size disk yang ingin digunakan. Disini sebagai contoh saya menggunakan `20GB`. Disini ada 2 pilihan yaitu `Store Disk as a single file` dan `Split virtual disk into multiple files`.
->Store Disk as a single file adalah disk yang di buat itu nantinya akan langsung terbuat 20Gb. (ini tidak disarankan untuk user yang memiliki penyimpanan yang berkapasitas kecil). Split virtual disk into multiple files maksudnya adalah disk yang kita pakai untuk virtual machine kita nantinya itu akan dibagi menjadi beberapa bagian. Jadi walaupun kita menggunakan disk berkapasitas 10Gb itu nanti tidak akan terpakai seluruhnya.
+>Store Disk as a single file adalah disk yang di buat itu nantinya akan langsung terbuat 20GB. (ini tidak disarankan untuk user yang memiliki penyimpanan yang berkapasitas kecil). Split virtual disk into multiple files maksudnya adalah disk yang kita pakai untuk virtual machine kita nantinya itu akan dibagi menjadi beberapa bagian. Jadi walaupun kita menggunakan disk berkapasitas 20GB itu nanti tidak akan terpakai seluruhnya.
 
 ![image](Media/5.png) 
 
