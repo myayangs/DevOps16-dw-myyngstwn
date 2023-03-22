@@ -60,12 +60,12 @@ grep  Server *
 `sort` untuk mengurutkan data, baik itu secara ascending atau descending.
 
 ```
-sort number
+sort TM
 ```
 >untuk mengurutkan berdasarkan ascending
 
 ```
-sort -r number
+sort -r TM
 ```
 >untuk mengurutkan berdasarkan descending
 
@@ -76,19 +76,19 @@ sort -r number
 `echo` digunakan untuk mencetak string / pesan dari hasil perintah lain.
 
 ```
-echo "Hello Dumbways!"
+echo "Welcome Home"
 ```
 >untuk mencetak string **
 
 ```
-echo "Hello Dumbways!" >> final
+echo "Stage1 Stage2" >> Pre-Bootcamp
 ```
->untuk mencetak kata Hello Dumbways! di `final`    
+>untuk mencetak kata `Stage1 Stage2` di `Pre-Bootcamp`    
 
 ```
-echo "BootCamp DevOps" > day1
+echo "BootCamp DevOps" > Pre-Bootcamp
 ```
->untuk mereplace semua data di `final` dan menggantinya dengan `BootCamp DevOps`
+>untuk mereplace semua data di `Pre-Bootcamp` dan menggantinya dengan `BootCamp DevOps`
 
 ![echo](https://user-images.githubusercontent.com/54151202/226976964-897afb33-c379-4ba8-8015-5e2f100ea2a4.png)
 
