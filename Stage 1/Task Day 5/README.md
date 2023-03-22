@@ -113,7 +113,7 @@ sudo ufw enable
 ![ufw 2](https://user-images.githubusercontent.com/54151202/226983753-3a0cf066-55f6-41c6-8986-496460fb6ba0.png)
 
 
-Untuk Memberikan akses ufw kepada port 22, 80, 443, 3000. Update apt dan install nginx menggunakan script bash. Pertama buatlah file terlebih dahulu yang akan berfungsi sebagai tempat kosong untuk script bash yang akan diketik.
+Untuk Memberikan akses ufw kepada port 22, 80, 443, 3000. Update apt dan install nginx menggunakan script bash. Pertama buatlah file terlebih dahulu yang akan berfungsi sebagai tempat kosong untuk script bash yang akan diketik. Lalu isi script tersebut seperti dibawah ini. 
 
 ```
 nano firewall-allow
@@ -200,4 +200,14 @@ Keterangan : Disini dapat memilih ingin memonitoring apa saja, Disini coba untuk
 
 
 ## Bash Script
+
+- Buatlah file terlebih dahulu yang akan berfungsi sebagai tempat kosong untuk script bash yang akan diketik.  Lalu isi script tersebut seperti dibawah ini. 
+
+
+- Untuk menjalankan aplikasi NodeJS(dumbflix-frontend) dengan mengaktifkan firewall menggunakan perintah dibawah ini dan membuka akses port 3000. Lalu jalankan aplikasi tersebut.
+
+
+
+
+
 
