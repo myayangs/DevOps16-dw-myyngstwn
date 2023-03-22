@@ -7,12 +7,12 @@ Berikut adalah beberapa perintah yang dapat digunakan dalam *Teks Manipulation*
 `cat` adalah perintah yang digunakan membuat satu atau beberapa file, melihat isi file, serta menggabungkan dua buah file menjadi satu file.
 
 ```
-cat > (file-name)
+cat > day5
 ```
 > untuk membuat suatu file baru serta memasukkan teks, Jika sudah menambakan teks dapat keluar dengan klik `CTRL + D`.
 
 ```
-cat (file-name)
+cat day5
 ```
 > untuk melihat isi dari suatu file
 
