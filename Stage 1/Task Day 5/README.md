@@ -203,10 +203,16 @@ Keterangan : Disini dapat memilih ingin memonitoring apa saja, Disini coba untuk
 
 - Buatlah file terlebih dahulu yang akan berfungsi sebagai tempat kosong untuk script bash yang akan diketik.  Lalu isi script tersebut seperti dibawah ini. 
 
+![bash1](https://user-images.githubusercontent.com/54151202/226996016-037b19fb-22f1-473c-afd2-26a9b37c65b5.png)
+
+![bash2](https://user-images.githubusercontent.com/54151202/226996026-62664f65-0948-4afe-8f7b-b440552425d7.png)
+
 
 - Untuk menjalankan aplikasi NodeJS(dumbflix-frontend) dengan mengaktifkan firewall menggunakan perintah dibawah ini dan membuka akses port 3000. Lalu jalankan aplikasi tersebut.
 
 
+![bash3](https://user-images.githubusercontent.com/54151202/226996059-7470ea4f-56b3-4a45-a848-e2ee8ce81bf4.png)
+![bash4](https://user-images.githubusercontent.com/54151202/226996063-3d3b5fad-1367-4ca8-8fd4-98ad8284edf3.png)
 
 
 
