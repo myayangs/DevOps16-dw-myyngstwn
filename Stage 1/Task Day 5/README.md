@@ -21,15 +21,21 @@ cat day5 day6 > final
 ```
 > untuk menggabungkan dua buah file, dan menyimpannya ke dalam `final`
 
+![cat](https://user-images.githubusercontent.com/54151202/226976730-fd07f4f3-28f5-410c-950b-235b1251cb2e.png)
+
+
 ### B. **sed**
-`sed` adalah singkatan dari stream editor. Gunanya untuk memanipulasi teks dasar pada file. Dengan sed dapat mengganti teks dengan cepat.
+`sed` adalah singkatan dari stream editor. Gunanya untuk memanipulasi teks dasar pada file. Dengan `sed` dapat mengganti teks dengan cepat.
 
 ```
 sed -i 's/with/dengan/g' final
 ```
 >mengganti semua kata `with` menjadi `dengan` pada `final`
 
-3. **grep**
+![sed](https://user-images.githubusercontent.com/54151202/226976775-df429dc0-6b5e-486a-8ec8-66d9f7ac2b54.png)
+
+
+### C. **grep**
 `grep` merupakan perintah untuk melakukan pencarian sebuah text dalam sebuah file yang telah dibuat.
 
 ```
@@ -45,10 +51,13 @@ grep  -c Server final
 ```
 grep  Server *
 ```
-> kan mencari semua file yang berisikan kata `Server`
+> akan mencari semua file yang berisikan kata `Server`
 
-4. **sort**
-`Sort` untuk mengurutkan data, baik itu secara ascending atau descending.
+![grep](https://user-images.githubusercontent.com/54151202/226976863-f354c616-3ea6-4cae-b812-0eeefb8d36ae.png)
+
+
+### D. **sort**
+`sort` untuk mengurutkan data, baik itu secara ascending atau descending.
 
 ```
 sort number
@@ -60,7 +69,10 @@ sort -r number
 ```
 >untuk mengurutkan berdasarkan descending
 
-5. **echo**
+![sort](https://user-images.githubusercontent.com/54151202/226976914-d3fa1a93-165b-44f5-b7b7-a15d2453353c.png)
+
+
+### E. **echo**
 `echo` digunakan untuk mencetak string / pesan dari hasil perintah lain.
 
 ```
@@ -77,6 +89,8 @@ echo "Hello Dumbways!" >> final
 echo "BootCamp DevOps" > day1
 ```
 >untuk mereplace semua data di `final` dan menggantinya dengan `BootCamp DevOps`
+
+![echo](https://user-images.githubusercontent.com/54151202/226976964-897afb33-c379-4ba8-8015-5e2f100ea2a4.png)
 
 
 ## Network Firewall Bash
