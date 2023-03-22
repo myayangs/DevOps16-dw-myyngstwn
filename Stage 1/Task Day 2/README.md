@@ -92,7 +92,7 @@ npm install -g localtunnel
 lt --port 80
 ```
 ![image](Media/13.png)
-*keterangan: pastikan port dengan sesuai dengan aplikasi. Karena setiap aplikasi mempunyai port yang berbeda-beda.*
+>keterangan: pastikan port dengan sesuai dengan aplikasi. Karena setiap aplikasi mempunyai port yang berbeda-beda.
 
 - **_copy_** url di terminal lalu jalankan di web/smartphone browser.
 <p align="center">
