@@ -189,6 +189,7 @@ nmon
 ```
 
 ![nmon2](https://user-images.githubusercontent.com/54151202/226982017-b9348c45-10d8-42b7-acdc-24c00dbf7cbe.png)
+
 ![nmon3](https://user-images.githubusercontent.com/54151202/226982027-f23b0dfd-6592-4e8d-a9f4-af647aac9b77.png)
 
 Keterangan : Disini dapat memilih ingin memonitoring apa saja, Disini coba untuk menampilkan beberapa saja.
@@ -207,13 +208,8 @@ Keterangan : Disini dapat memilih ingin memonitoring apa saja, Disini coba untuk
 
 ![bash2](https://user-images.githubusercontent.com/54151202/226996026-62664f65-0948-4afe-8f7b-b440552425d7.png)
 
-
 - Untuk menjalankan aplikasi NodeJS(dumbflix-frontend) dengan mengaktifkan firewall menggunakan perintah dibawah ini dan membuka akses port 3000. Lalu jalankan aplikasi tersebut.
 
-
 ![bash3](https://user-images.githubusercontent.com/54151202/226996059-7470ea4f-56b3-4a45-a848-e2ee8ce81bf4.png)
+
 ![bash4](https://user-images.githubusercontent.com/54151202/226996063-3d3b5fad-1367-4ca8-8fd4-98ad8284edf3.png)
-
-
-
-
