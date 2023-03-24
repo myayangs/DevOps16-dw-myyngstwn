@@ -112,11 +112,19 @@ C:\Windows\System32\drivers\etc\hosts
 
 - Untuk membuat konfigurasi `load balancing`, buatlah satu server baru terlebih dahulu dan install aplikasi pada server baru tersebut.
 
+![16](https://user-images.githubusercontent.com/54151202/227425281-7f9ca2e9-e99c-47e2-804c-4f1d496dd606.png)
+
+![17](https://user-images.githubusercontent.com/54151202/227425275-298d33a0-09ce-4818-b94f-16ada3e029a9.png)
+
+![18](https://user-images.githubusercontent.com/54151202/227425279-5c0c2a14-227e-416b-8bb1-290bf0c6414c.png)
+
 - Sekarang sudah punya 2 server untuk aplikasinya, lalu membuat konfigurasi `load balancing`, masuk ke file konfigurasi `reverse proxy` yang sudah dibuat tadi dan tambahkan konfigurasi dibawah ini.
 
 ```
 sudo nano reverse-proxy.conf
 ```
+
+![19](https://user-images.githubusercontent.com/54151202/227425248-5f2d8098-1f0b-4470-b619-487cae175ac6.png)
 
 - Kemudian tambahkan konfigurasi ke dalam file `reverse-proxy.conf`. dapat menggunakan konfigurasi di bawah ini.
 ```
@@ -132,17 +140,28 @@ server {
     }
 }
 ```
+
+![20](https://user-images.githubusercontent.com/54151202/227425338-10ae8413-7a66-4227-a412-039fbf6f0b91.png)
+
 > Pada bagian upstream dapat mengganti nama domain dengan nama yang diinginkan. Pada bagian server masukan IP dari server, setelah itu diikuti dengan port aplikasi. Selanjutnya pada bagian proxy_pass ubah dari yang sebelumnya adalah alamat IP dari aplikasi, sekarang samakan dengan nama upstream yang ada di konfigurasi. Jika sudah sekarang cek apakah konfigurasi yang sudah dibuat tadi itu error atau tidak.
 ```
 sudo nginx -t 
 ```
 
+![21](https://user-images.githubusercontent.com/54151202/227425349-99339420-f0a4-43a8-8e5d-d1e267af8ac5.png)
+
 - Kemudian restart/reload nginx untuk memperbarui konfigurasi yang sudah dibuat.
 ```
 sudo systemctl reload nginx
 ```
+![22](https://user-images.githubusercontent.com/54151202/227425375-e4b61aeb-729a-4bb7-a758-b38ef762cbee.png)
 
 - Kemudian jalankan aplikasi yang ada pada server ini, dan cek di browser menggunakan domain tadi.
 
+![23](https://user-images.githubusercontent.com/54151202/227425454-9401ba4c-bf68-464b-baaa-24c668b2433e.png)
+![15](https://user-images.githubusercontent.com/54151202/227257613-58a78bdb-b9a0-411a-a6b0-f25f869f68b9.png)
+
 - Kemudian untuk mengecek apakah `load balancing` sudah berjalan atau tidak, coba matikan satu server dan refresh webnya.
 
+![24](https://user-images.githubusercontent.com/54151202/227425466-7ee57305-3440-4438-aa97-b5b6784fc880.png)
+![15](https://user-images.githubusercontent.com/54151202/227257613-58a78bdb-b9a0-411a-a6b0-f25f869f68b9.png)
