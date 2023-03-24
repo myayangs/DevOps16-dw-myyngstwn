@@ -106,3 +106,43 @@ C:\Windows\System32\drivers\etc\hosts
 ![15](https://user-images.githubusercontent.com/54151202/227257613-58a78bdb-b9a0-411a-a6b0-f25f869f68b9.png)
 
 
+# Challenge
+## Load Balancing
+`Load Balancing` adalah suatu jaringan komputer yang menggunakan metode untuk mendistribusikan beban kerjaan pada dua atau bahkan lebih suatu koneksi jaringan secara seimbang agar pekerjaan dapat berjalan optimal dan tidak overload (kelebihan) beban pada salah satu jalur koneksi.
+
+- Untuk membuat konfigurasi `load balancing`, buatlah satu server baru terlebih dahulu dan install aplikasi pada server baru tersebut.
+
+- Sekarang sudah punya 2 server untuk aplikasinya, lalu membuat konfigurasi `load balancing`, masuk ke file konfigurasi `reverse proxy` yang sudah dibuat tadi dan tambahkan konfigurasi dibawah ini.
+
+```
+sudo nano reverse-proxy.conf
+```
+
+- Kemudian tambahkan konfigurasi ke dalam file `reverse-proxy.conf`. dapat menggunakan konfigurasi di bawah ini.
+```
+upstream domain { 
+    server 192.168.18.120:3000;
+    server 192.168.18.200:3000;
+}
+server { 
+    server_name dumbflix.xyz; 
+  
+    location / { 
+             proxy_pass http://domain;
+    }
+}
+```
+> Pada bagian upstream dapat mengganti nama domain dengan nama yang diinginkan. Pada bagian server masukan IP dari server, setelah itu diikuti dengan port aplikasi. Selanjutnya pada bagian proxy_pass ubah dari yang sebelumnya adalah alamat IP dari aplikasi, sekarang samakan dengan nama upstream yang ada di konfigurasi. Jika sudah sekarang cek apakah konfigurasi yang sudah dibuat tadi itu error atau tidak.
+```
+sudo nginx -t 
+```
+
+- Kemudian restart/reload nginx untuk memperbarui konfigurasi yang sudah dibuat.
+```
+sudo systemctl reload nginx
+```
+
+- Kemudian jalankan aplikasi yang ada pada server ini, dan cek di browser menggunakan domain tadi.
+
+- Kemudian untuk mengecek apakah `load balancing` sudah berjalan atau tidak, coba matikan satu server dan refresh webnya.
+
