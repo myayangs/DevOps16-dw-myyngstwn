@@ -157,7 +157,7 @@ python3 app.py
 
  - Pertama-tama lakukan instalasi **PM2** dan lalu check apabila sudah berhasil. bisa gunakan perintah dibawah ini.
  ```
- npm install pm2@latest -g
+ npm install pm2 -g
  ```
  ```
  pm2 -v
