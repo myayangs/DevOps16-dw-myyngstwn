@@ -7,3 +7,7 @@
 - Day 4 : [ Version Control System with Git](./Stage%201/Task%20Day%204/)
 - Day 5 : [Manage Server with Terminal](./Stage%201/Task%20Day%205/)
 - Day 6 : [Web Server & Load Balancing](./Stage%201/Task%20Day%206/) 
+
+## Stage 2
+- Day 1 : [Cloud Computing](./Stage%202/Task%20Day%201/)
+- Day 2 : [Manage Database with Backend](./Stage%202/Task%20Day%202/)
