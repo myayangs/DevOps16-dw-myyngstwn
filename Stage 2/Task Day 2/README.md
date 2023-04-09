@@ -151,7 +151,7 @@ location / {
 
 ![2](https://user-images.githubusercontent.com/54151202/230796483-a441fa3b-7e18-47ea-8959-5203fda65914.png)
 
-- Kemudian buka terminal server `appserver` lalu jalankan aplikasi `wayshub-frontend` dan `wayshub-backend`.
+- Kemudian jalankan aplikasi `wayshub-frontend` dan `wayshub-backend`.
 
 ![3](https://user-images.githubusercontent.com/54151202/230796489-7220f537-3f08-4443-9cad-e6e4a90627c1.png)
 
