@@ -15,7 +15,7 @@
 |  Gateway     |   1   | 1 GB  |  20 GB  |
 
 ![2](https://user-images.githubusercontent.com/54151202/230743240-a26291f3-9671-4849-91d5-2f2ce2316d0e.png)
-![3](https://user-images.githubusercontent.com/54151202/230743722-e27d50fe-b72b-4655-a7e4-8c1a1538a94c.png)
+![3](https://user-images.githubusercontent.com/54151202/230795830-a11c20b3-c228-4df6-a3bf-e6a9c33e4597.png)
 
 - Buka terminal dan akses server `Appserver` menggunakan SSH.
 
