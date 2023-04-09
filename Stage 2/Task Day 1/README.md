@@ -100,7 +100,7 @@ location / {
 
 ![18](https://user-images.githubusercontent.com/54151202/230745677-0cc98d0c-ee67-48d4-8b2c-8b3b37aff43f.png)
 
-- Kemudian buka browser dan akses domain `yyg.studentdumbways.my.id`
+- Kemudian buka browser dan akses domain `yyg.studentdumbways.my.id`.
 
 ![19](https://user-images.githubusercontent.com/54151202/230745681-e5753f11-cdd7-40ed-82c3-60662e650142.png)
 
