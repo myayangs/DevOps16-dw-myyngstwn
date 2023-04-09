@@ -87,14 +87,16 @@ npm install sequelize-cli
 ![4](https://user-images.githubusercontent.com/54151202/230796275-f182664b-92fd-460d-91ed-dc73011cfab6.png)
 
 - Kemudian melakukan konfigurasi di dalam file `config/config.json` untuk melakukan migrasi.
-> - user adalah user dari mysql. 
-> - password adalah password dari user mysql. 
-> - database adalah nama database yang telah dibuat.
-> - host adalah alamat dari server database.
+
 
 ![5](https://user-images.githubusercontent.com/54151202/230796292-b4090ecd-da60-46bd-b8e5-18043d2567d3.png)
 
 ![6](https://user-images.githubusercontent.com/54151202/230796297-85915dd8-c0d8-4c1a-a2d5-f7ad2544da81.png)
+
+> - user adalah user dari mysql. 
+> - password adalah password dari user mysql. 
+> - database adalah nama database yang telah dibuat.
+> - host adalah alamat dari server database.
 
 - Kemudian melakukan migrasi data dari backend ke server database yang telah dibuat. bisa gunakan perintah dibawah ini.
 
@@ -104,7 +106,7 @@ sequelize db:migrate
 
 ![7](https://user-images.githubusercontent.com/54151202/230796307-b13cf46f-ebf9-4a3a-8e6e-00a2c178a30e.png)
 
-- Kemudian masuk dalam database untuk memastikan apakah migrasi datanya behasil atau tidak.
+- Kemudian masuk dalam database untuk memastikan apakah migrasi datanya berhasil atau tidak.
 
 ![8](https://user-images.githubusercontent.com/54151202/230796314-5caff345-3a89-4f7f-a086-0d1da3c5212e.png)
 
@@ -118,7 +120,7 @@ sequelize db:migrate
 
 ## Konfigurasi Reverse Proxy 
 
-- Buka terminal dan akses server `gateway` menggunakan SSH.
+- Buka terminal server `gateway` menggunakan SSH.
 
 - Kemudian masuk ke folder **nginx/dumbways** lalu buat file dengan nama `rp-be.conf`. Dengan masukan konfigurasi berikut.
 
@@ -156,6 +158,8 @@ location / {
 # Challenge
 ## Install SSL on Nginx 
 - Agar domain bisa terkoneksi dengan aman perlu menggunakan [Certbot](https://certbot.eff.org/instructions?ws=nginx&os=ubuntufocal).
+
+- buka terminal server `gateway`.
 
 - Instalasi `Core` dan `Certbot`.
 ```
