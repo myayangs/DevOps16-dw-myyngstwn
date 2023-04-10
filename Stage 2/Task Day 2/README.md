@@ -155,6 +155,14 @@ location / {
 
 ![3](https://user-images.githubusercontent.com/54151202/230796489-7220f537-3f08-4443-9cad-e6e4a90627c1.png)
 
+- Kemudian buka browser akses domain `yyg.studentdumbways.my.id`.
+
+![4](https://user-images.githubusercontent.com/54151202/230906075-f23b7a0a-53f0-43c5-8ca0-1c56427d7183.png)
+
+![5](https://user-images.githubusercontent.com/54151202/230906141-ce93800b-610c-417b-a5ee-674a9f53b7de.png)
+
+![6](https://user-images.githubusercontent.com/54151202/230906160-adae2181-4adc-44a9-b881-4188c02e681b.png)
+
 # Challenge
 ## Install SSL on Nginx 
 - Agar domain bisa terkoneksi dengan aman perlu menggunakan [Certbot](https://certbot.eff.org/instructions?ws=nginx&os=ubuntufocal).
@@ -185,3 +193,15 @@ sudo certbot --nginx
 ![2](https://user-images.githubusercontent.com/54151202/230796500-35a51b96-a596-47e8-8c3c-126478d91bf7.png)
 
 - Kemudian buka browser akses domain `yyg.studentdumbways.my.id` dan `api.yyg.studentdumbways.my.id`. 
+
+![3](https://user-images.githubusercontent.com/54151202/230906374-34c5bdb8-a90c-49de-bcb1-edfbbb6b145e.png)
+
+![4](https://user-images.githubusercontent.com/54151202/230906381-41de7a72-c672-49a5-8d73-e3cc061de6ef.png)
+
+![5](https://user-images.githubusercontent.com/54151202/230906386-9247ccbf-cb6d-4339-a4f7-332a8d4dc913.png)
+
+![6](https://user-images.githubusercontent.com/54151202/230906392-17a35496-e3be-48b5-8c3d-80ee2c1a28e9.png)
+
+
+
+
