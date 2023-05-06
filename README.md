@@ -11,7 +11,7 @@
 ## Stage 2
 - Day 1 : [Cloud Computing](./Stage%202/Task%20Day%201/)
 - Day 2 : [Manage Database with Backend](./Stage%202/Task%20Day%202/)
-- Day 3 : [Manage Database with Backend](./Stage%202/Task%20Day%203)
+- Day 3 : [Docker](./Stage%202/Task%20Day%203)
 - Day 4 : [Jenkins] (./Stage%202/Task%20Day%204/)
 - Day 5 : [Gitlab] (./Stage%202/Task%20Day%205/)
 - Day 6 : [Terraform] (./Stage%202/Task%20Day%206/)
