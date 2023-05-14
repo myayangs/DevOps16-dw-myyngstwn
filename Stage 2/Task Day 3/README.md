@@ -16,6 +16,10 @@ Anggota :
 |   Gateway    |   1   | 1 GB  |  20 GB  |
 |    CI/CD     |   2   | 2 GB  |  20 GB  |
 
+![image](Media/VM/1.png)
+
+![image](Media/VM/2.png)
+
 ## Setup Docker 
 Untuk Petunjuk instalasi Docker bisa dilihat pada [Docker](https://docs.docker.com/engine/install/ubuntu/) dan [Digital Ocean](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04).
 
