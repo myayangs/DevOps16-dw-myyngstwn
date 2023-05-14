@@ -103,68 +103,21 @@ ansible-playbook add-user.yml
 
 ## Setup Docker dan Menjalakan Aplikasi Wayshub Frontend di Appserver
 
-- Pertama buat file `setup-docker.yaml`. Lalu isikan konfigurasi seperti dibawah ini. Dalankan file dengan menggunakan ansible playbook. 
-
----
-- name: Docker Installation for user
-  become: true
-  gather_facts: false
-  hosts: all
-  vars:
-    user: blade
-  tasks:
-    - name: Install Docker Dependencies
-      apt:
-        update_cache: true
-        name:
-          - ca-certificates
-          - curl
-          - gnupg
-          - lsb-release
-    - name: Install Docker GPG Key
-      apt_key:
-        url: https://download.docker.com/linux/ubuntu/gpg
-    - name: Install Docker Repository
-      apt_repository:
-        repo: deb https://download.docker.com/linux/ubuntu focal stable
-    - name: Install Docker Engine
-      apt:
-        update-cache: true
-        name:
-          - docker-ce
-          - docker-ce-cli
-          - containerd.io
-          - docker-compose-plugin
-    - name: Install Python Dependencies
-      apt:
-        name: python3-pip
-        state: latest
-        update_cache: true
-      become: true
-
-    - name: Install Docker SDK for Python
-      pip:
-        name: docker
-    - name: Docker Group Add [username]
-      shell: sudo usermod -aG docker {{user}} 
-
-```
-
-ansible-playbook setup-docker.yml
-```
+- Pertama buat file `setup-docker.yaml`. Lalu isikan konfigurasi seperti dibawah ini. Dan jalankan file dengan menggunakan ansible playbook. 
 
 ![image](Media/9.png)
 
 ![image](Media/10.png)
 
-- Kemudian buat file `docker-wayshub.yml` dan
+- Kemudian buat file `docker-wayshub.yml`. Lalu isikan konfigurasi seperti dibawah ini. Dan jalankan file dengan menggunakan ansible playbook.
 
 ![image](Media/11.png)
 
 ![image](Media/12.png)
 
-![image](Media/13.png)
+- Wayshub frontend telah berhasil di akses di browser 
 
+![image](Media/13.png)
 
 ## Setup Nginx
 
