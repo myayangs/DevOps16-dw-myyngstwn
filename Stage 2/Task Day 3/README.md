@@ -8,7 +8,7 @@ Anggota :
 
 ## Requirements
 
--Buat 3 VM dengan spesifikasi sebagai berikut :
+- Buat 3 VM dengan spesifikasi sebagai berikut :
 
 |      VM      |  CPU  |  RAM  | Storage |
 |    :---:     | :---: | :---: |  :---:  | 
@@ -75,9 +75,27 @@ sudo usermod -aG docker (user)
 
 ## Deploy Aplikasi on Top Docker
 ### Frontend
+
+![image](Media/Frontend/1.png)
+![image](Media/Frontend/2.png)
+![image](Media/Frontend/3.png)
+![image](Media/Frontend/4.png)
+
 ### Database
-### Database
+
+![image](Media/Database/1.png)
+![image](Media/Database/2.png)
+![image](Media/Database/3.png)
+
+### Backend
+
+![image](Media/Backend/1.png)
+![image](Media/Backend/2.png)
+![image](Media/Backend/3.png)
+
 ### Docker Compose
+![image](Media/Docker%20Compose/1.png)
+![image](Media/Docker%20Compose/2.png)
 ### Docker Push Images 
 - Kemudian melakukan login ke dalam `docker.hub` di dalam terminal.
 ```
@@ -98,6 +116,10 @@ docker push myyngstwn/wayshub-frontend
 
 ![image](Media/Docker%20Push%20Images/3.png)
 
-## Setup Domain
-
 ## Konfigurasi Reverse Proxy
+
+![image](Media/RP/1.png)
+![image](Media/RP/2.png)
+![image](Media/RP/3.png)
+![image](Media/RP/4.png)
+![image](Media/RP/5.png)
