@@ -24,16 +24,19 @@ Anggota :
 Untuk Petunjuk instalasi Docker bisa dilihat pada [Docker](https://docs.docker.com/engine/install/ubuntu/) dan [Digital Ocean](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04).
 
 - Pertama, install Docker di dalam server yang telah dibuat. Bisa gunakan perintah dibawah ini.
+
 ```
 sudo apt-get update
 sudo apt-get install ca-certificates curl gnupg
 ```
+![image](Media/Setup%20Docker/1.png)
 
 ```
 sudo install -m 0755 -d /etc/apt/keyrings
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
 sudo chmod a+r /etc/apt/keyrings/docker.gpg
 ```
+![image](Media/Setup%20Docker/2.png)
 
 ```
 echo \
@@ -42,17 +45,24 @@ echo \
   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 ```
 
+![image](Media/Setup%20Docker/3.png)
+
 ```
 sudo apt-get update
 ```
 
+![image](Media/Setup%20Docker/4.png)
+
 ```
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 ```
+![image](Media/Setup%20Docker/5.png)
 
 ```
 docker -v
 ```
+
+![image](Media/Setup%20Docker/5.png)
 
 - Kemudian setup untuk root command docker yang akan dipakai nantinya agar saat menggunakan command docker tersebut sudah tidak perlu menggunakan perintah sudo. Bisa gunakan perintah dibawah ini.
 
@@ -60,6 +70,8 @@ docker -v
 sudo usermod -aG docker (user)
 ```
 > keterangan : perintah di atas ini adalah suatu perintah untuk mengizinkan user yang digunakan agar dapat menjalankan perintah docker tanpa menggunakan perintah sudo.
+
+![image](Media/Setup%20Docker/7.png)
 
 ## Deploy Aplikasi on Top Docker
 ### Frontend
