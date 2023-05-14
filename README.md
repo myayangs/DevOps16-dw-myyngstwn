@@ -16,4 +16,5 @@
 - Day 5 : [Gitlab](./Stage%202/Task%20Day%205/)
 - Day 6 : [Terraform](./Stage%202/Task%20Day%206/)
 - Day 7 : [Ansible](./Stage%202/Task%20Day%207/)
-- Day 8 : [Grafana](./Stage%202/Task%20Day%208/)
+- Day 8 : [Prometheus & Grafana](./Stage%202/Task%20Day%208/)
+- Day 9 : [Kubernetes](./Stage%202/Task%20Day%209/)
