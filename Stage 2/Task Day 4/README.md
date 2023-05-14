@@ -213,7 +213,7 @@ pipeline {
 
 - Masukkan ssh url github, branch dan dll. Hal ini dikarenakan setiap mengalami perubahan, penambahan pada Jenkinsfile harus di add, commit dan push ke akun github yang sudah di setting di server.
 
-- dan kemudian save. Jika Jenkinsfile sudah di tambahkan ke dalam repository. bisa langsung menekan tombol build now. ketika di build bisa melihat error di bagian logs sesuai dengan stage yg di jalankan.
+- Kemudian save. Jika Jenkinsfile sudah di tambahkan ke dalam repository. bisa langsung menekan  `build now`. ketika di build bisa melihat error di bagian logs sesuai dengan stage yg di jalankan.
 
 ![image](Media/11.png)
 
