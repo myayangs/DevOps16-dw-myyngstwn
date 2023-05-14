@@ -2,6 +2,8 @@
 
 ## Setup Node Exporter
 
+- Install node exporter dengan docker `port 9100` pada **appserver** dan **gateway**. Pertama buat file `node-exporter.yaml`. Lalu isikan konfigurasi seperti dibawah ini. Dan jalankan file dengan menggunakan ansible playbook.
+
 ![image](Media/Node%20exporter/1.png)
 
 ![image](Media/Node%20exporter/2.png)
