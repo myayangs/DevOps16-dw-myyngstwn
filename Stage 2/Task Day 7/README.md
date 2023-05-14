@@ -121,8 +121,67 @@ ansible-playbook add-user.yml
 
 ## Setup Nginx
 
+- Pertama konfigurasi domain 
+
 ![image](Media/14.png)
+
+- Kemudian buat direktori dan file reverse proxy yang nantinya akan dicopy.
+  - rp-app.conf
+```
+server {
+    server_name yyg.studentdumbways.my.id;
+
+    location / {
+             proxy_pass http://103.187.146.32:3000;
+    }
+}
+```
+  - rp-node-app.conf
+```
+server { 
+    server_name node-app.yyg.studentdumbways.my.id; 
+    
+    location / { 
+             proxy_pass http://103.187.146.32:9100;
+    } 
+} 
+```
+  - rp-node-gateway.conf
+```
+server { 
+    server_name node-gateway.yyg.studentdumbways.my.id; 
+    
+    location / { 
+             proxy_pass http://103.13.206.110:9100;
+    } 
+} 
+```
+  - rp-prometheus.conf
+```
+server { 
+    server_name prom.yyg.studentdumbways.my.id; 
+    
+    location / { 
+             proxy_pass http://103.250.11.187:9090;
+    }
+}
+```
+  - rp-grafana.conf
+```
+server { 
+    server_name dashboard.yyg.studentdumbways.my.id; 
+    
+    location / {
+             proxy_set_header Host dashboard.yyg.studentdumbways.my.id; 
+             proxy_pass http://103.250.11.187:3000;
+    }
+}
+```
 ![image](Media/15.png)
+
+- Kemudian buat file `setup-nginx.yml`. Lalu isikan konfigurasi seperti dibawah ini. Dan jalankan file dengan menggunakan ansible playbook.
 ![image](Media/16.png)
+
 ![image](Media/17.png)
+
 ![image](Media/18.png)
