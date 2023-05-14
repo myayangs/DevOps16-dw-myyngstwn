@@ -121,8 +121,11 @@ git clone https://github.com/dumbwaysdev/wayshub-backend
 ![image](Media/Backend/3.png)
 
 ### Docker Compose
+- Membuat Docker compose dan menjalankannya.
 ![image](Media/Docker%20Compose/1.png)
+
 ![image](Media/Docker%20Compose/2.png)
+
 ### Docker Push Images 
 - Kemudian melakukan login ke dalam `docker.hub` di dalam terminal.
 ```
@@ -145,8 +148,14 @@ docker push myyngstwn/wayshub-frontend
 
 ## Konfigurasi Reverse Proxy
 
+- Kemudian membuat reverse proxy dan serta certbot sertifikasi pada aplikasi wayshub-frontend dan wayshub-backend.
+
 ![image](Media/RP/1.png)
+
 ![image](Media/RP/2.png)
+
 ![image](Media/RP/3.png)
+
 ![image](Media/RP/4.png)
+
 ![image](Media/RP/5.png)
