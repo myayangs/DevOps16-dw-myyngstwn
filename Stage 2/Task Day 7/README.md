@@ -126,6 +126,7 @@ ansible-playbook add-user.yml
 ![image](Media/14.png)
 
 - Kemudian buat direktori dan file reverse proxy yang nantinya akan dicopy.
+
 `rp-app.conf`
 ```
 server {
@@ -180,6 +181,7 @@ server {
 ![image](Media/15.png)
 
 - Kemudian buat file `setup-nginx.yml`. Lalu isikan konfigurasi seperti dibawah ini. Dan jalankan file dengan menggunakan ansible playbook.
+
 ![image](Media/16.png)
 
 ![image](Media/17.png)
