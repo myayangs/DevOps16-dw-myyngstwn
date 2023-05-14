@@ -1,1 +1,55 @@
 # Prometheus & Grafana
+
+## Setup Node Exporter
+
+![image](Media/Node%20exporter/1.png)
+
+![image](Media/Node%20exporter/2.png)
+
+![image](Media/Node%20exporter/3.png)
+
+## Setup Prometheus & Grafana
+
+![image](Media/Prometheus/1.png)
+
+![image](Media/2.png)
+
+![image](Media/3.png)
+
+![image](Media/Prometheus/4.png)
+
+![image](Media/Prometheus/5.png)
+
+![image](Media/Grafana/1.png)
+
+### Memmbuat Dashboard
+![image](Media/Grafana/2.png)
+
+![image](Media/Grafana/3.png)
+
+![image](Media/Grafana/4.png)
+
+![image](Media/Grafana/5.png)
+
+![image](Media/Grafana/6.png)
+
+![image](Media/Grafana/7.png)
+
+![image](Media/Grafana/8.png)
+
+![image](Media/Grafana/9.png)
+
+![image](Media/Grafana/10.png)
+
+### Membuat Alert
+![image](Media/Grafana/11.png)
+
+![image](Media/Grafana/12.png)
+
+![image](Media/Grafana/13.png)
+
+![image](Media/Grafana/14.png)
+
+![image](Media/Grafana/15.png)
+
+![image](Media/Grafana/16.png)

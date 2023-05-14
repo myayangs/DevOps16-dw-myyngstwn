@@ -10,7 +10,7 @@ sudo apt update && sudo apt install terraform
 
 ![image](Media/2.png)
 
-- Buat directori untuk server dan konfigurasi terraform. Lalu membuat script terraform `main.tf`.
+- Buat direktori untuk server dan konfigurasi terraform. Lalu membuat script terraform `main.tf`.
 
 ```
 terraform {
