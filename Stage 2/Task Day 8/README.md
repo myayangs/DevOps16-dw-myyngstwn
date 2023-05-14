@@ -1,1 +1,1 @@
-# Prometheus && Grafana
+# Prometheus & Grafana
