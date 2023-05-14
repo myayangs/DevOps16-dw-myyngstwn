@@ -25,7 +25,7 @@ services:
 
 - Pada saat pertama kali akan diminta untuk memasukan password yang sudah di generate secara random oleh jenkins letaknya ada di `/var/jenkins_home/secrets/initialAdminPassword`
 
-- Kemudian masukkan password tersebut untuk bisa mengakses jenkins. pada instalasi plugin pilih `recommend plugin`.setelah installasi plugin selesai maka akan diarahkan untuk `Create First Admin User` dan `Instance Configuration`.
+- Kemudian masukkan password tersebut untuk bisa mengakses jenkins. pada instalasi plugin pilih `recommend plugin`. Setelah instalasi plugin selesai maka akan diarahkan untuk `Create First Admin User` dan `Instance Configuration`.
 
 ![image](Media/3.png)
 
@@ -56,7 +56,7 @@ services:
 ## Membuat Jenkinsfile Frontend dan Backend
 - untuk membuat pipeline di butuhkan file bernama `Jenkinsfile`.
 
-
+`Jenkinsfile Forntend`
 ```
 def branch = "main"
 def repo = "https://github.com/myayangs/wayshub-frontend.git"
@@ -132,6 +132,7 @@ pipeline {
 }
 ```
 
+`Jenkinsfile Backend`
 ```
 def branch = "main"
 def repo = "https://github.com/myayangs/wayshub-backend.git"
@@ -208,6 +209,32 @@ pipeline {
 ```
 
 ## Membuat Pipeline
+- Kemudian pilih pipeline dan beri nama sesuai aplikasi.
+
+- Masukkan ssh url github, branch dan dll. Hal ini dikarenakan setiap mengalami perubahan, penambahan pada Jenkinsfile harus di add, commit dan push ke akun github yang sudah di setting di server.
+
+- dan kemudian save. Jika Jenkinsfile sudah di tambahkan ke dalam repository. bisa langsung menekan tombol build now. ketika di build bisa melihat error di bagian logs sesuai dengan stage yg di jalankan.
+
+![image](Media/11.png)
+
+![image](Media/12.png)
+
+![image](Media/13.png)
+
+![image](Media/14.png)
+
+![image](Media/15.png)
+
+![image](Media/16.png)
+
+- Berikut aplikasi wayshub-frontend dan wayshub-backend yang telah berhasil di push ke docker hub. 
+
+![image](Media/17.png)
+
 ## Konfigurasi Reverse Proxy
+
+- Kemudian membuat reverse proxy dan serta certbot sertifikasi pada aplikasi Jenkins.
+
 ![image](Media/RP/1.png)
+
 ![image](Media/RP/2.png)
