@@ -76,21 +76,48 @@ sudo usermod -aG docker (user)
 ## Deploy Aplikasi on Top Docker
 ### Frontend
 
+- git clone repository `Wayshub Frontend`.
+
+```
+git clone https://github.com/dumbwaysdev/wayshub-frontend
+```
+
 ![image](Media/Frontend/1.png)
+
+- Kemudian Intregasikan Frontend dan Backend. Lalu membuat `Dockerfile`. 
+
 ![image](Media/Frontend/2.png)
+
 ![image](Media/Frontend/3.png)
+
 ![image](Media/Frontend/4.png)
 
 ### Database
 
+- Membuat docker mysql dan menjalankan dengan docker compose.
+
 ![image](Media/Database/1.png)
+
 ![image](Media/Database/2.png)
+
+- Kemudian membuat user database.
+
 ![image](Media/Database/3.png)
 
 ### Backend
 
+- - git clone repository `Wayshub Backend`.
+
+```
+git clone https://github.com/dumbwaysdev/wayshub-backend
+```
+
 ![image](Media/Backend/1.png)
+
+- - Kemudian Intregasikan Backend dan Database. Lalu membuat `Dockerfile`.
+
 ![image](Media/Backend/2.png)
+
 ![image](Media/Backend/3.png)
 
 ### Docker Compose
