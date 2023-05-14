@@ -126,7 +126,7 @@ ansible-playbook add-user.yml
 ![image](Media/14.png)
 
 - Kemudian buat direktori dan file reverse proxy yang nantinya akan dicopy.
-  - rp-app.conf
+`rp-app.conf`
 ```
 server {
     server_name yyg.studentdumbways.my.id;
@@ -136,7 +136,7 @@ server {
     }
 }
 ```
-  - rp-node-app.conf
+`rp-node-app.conf`
 ```
 server { 
     server_name node-app.yyg.studentdumbways.my.id; 
@@ -146,7 +146,7 @@ server {
     } 
 } 
 ```
-  - rp-node-gateway.conf
+`rp-node-gateway.conf`
 ```
 server { 
     server_name node-gateway.yyg.studentdumbways.my.id; 
@@ -156,7 +156,7 @@ server {
     } 
 } 
 ```
-  - rp-prometheus.conf
+`rp-prometheus.conf`
 ```
 server { 
     server_name prom.yyg.studentdumbways.my.id; 
@@ -166,7 +166,7 @@ server {
     }
 }
 ```
-  - rp-grafana.conf
+`rp-grafana.conf`
 ```
 server { 
     server_name dashboard.yyg.studentdumbways.my.id; 
