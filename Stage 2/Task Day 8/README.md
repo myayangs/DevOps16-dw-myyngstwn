@@ -13,6 +13,7 @@
 ## Setup Prometheus & Grafana
 
 - Pertama buat file `prometheus.yml` yang berfungsi sebagai konfigurasi file prometheus. Lalu install prometheus dengan docker `port 9090` dan grafana dengan docker `port 3000` pada server monitoring. Kemudian melakukan verifikasi apakah node exporter sudah menjadi target prometheus. Dan Selanjutnya mengakses dashboard grafana.
+
 ![image](Media/Prometheus/1.png)
 
 ![image](Media/2.png)
@@ -25,7 +26,9 @@
 
 ![image](Media/Grafana/1.png)
 
-### Memmbuat Dashboard
+### Membuat Dashboard
+- 
+
 ![image](Media/Grafana/2.png)
 
 ![image](Media/Grafana/3.png)
